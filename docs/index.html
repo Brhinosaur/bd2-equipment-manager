@@ -10,14 +10,37 @@
   <div class="container">
     <h1>Brown Dust Equipment Manager</h1>
     <form id="equipment-form">
-      <label for="equipment-name">Equipment Name:</label>
-      <input type="text" id="equipment-name" name="equipment-name"><br><br>
-      <label for="main-stat">Main Stat:</label>
-      <input type="text" id="main-stat" name="main-stat"><br><br>
-      <label for="sub-stat">Sub Stat:</label>
-      <input type="text" id="sub-stat" name="sub-stat"><br><br>
-      <label for="rolls">Rolls:</label>
-      <input type="text" id="rolls" name="rolls"><br><br>
+      <label for="gear-slot">Gear Slot:</label>
+      <select id="gear-slot" name="gear-slot">
+        <option value="">Select...</option>
+        <option value="weapon">Weapon</option>
+        <option value="head">Head</option>
+        <option value="body">Body</option>
+        <option value="accessory">Accessory</option>
+        <option value="gloves">Gloves</option>
+      </select><br><br>
+
+      <label for="rarity-tier">Rarity/Tier:</label>
+      <input type="text" id="rarity-tier" name="rarity-tier"><br><br>
+
+      <label for="level-refinement">Level/Refinement:</label>
+      <input type="text" id="level-refinement" name="level-refinement"><br><br>
+
+      <label for="basic-stat-1">Basic Stat 1:</label>
+      <input type="text" id="basic-stat-1" name="basic-stat-1"><br><br>
+
+      <label for="basic-stat-2">Basic Stat 2:</label>
+      <input type="text" id="basic-stat-2" name="basic-stat-2"><br><br>
+
+      <label for="substat-1">Substat 1:</label>
+      <input type="text" id="substat-1" name="substat-1"><br><br>
+
+      <label for="substat-2">Substat 2:</label>
+      <input type="text" id="substat-2" name="substat-2"><br><br>
+
+      <label for="substat-3">Substat 3:</label>
+      <input type="text" id="substat-3" name="substat-3"><br><br>
+
       <button type="submit">Save Equipment</button>
     </form>
     <div id="equipment-table">
@@ -27,4 +50,3 @@
   <script src="equipment-manager.js"></script>
 </body>
 </html>
-
