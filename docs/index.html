@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brown Dust Equipment Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Brown Dust Equipment Manager</h1>
+    <form id="equipment-form">
+      <label for="equipment-name">Equipment Name:</label>
+      <input type="text" id="equipment-name" name="equipment-name"><br><br>
+      <label for="main-stat">Main Stat:</label>
+      <input type="text" id="main-stat" name="main-stat"><br><br>
+      <label for="sub-stat">Sub Stat:</label>
+      <input type="text" id="sub-stat" name="sub-stat"><br><br>
+      <label for="rolls">Rolls:</label>
+      <input type="text" id="rolls" name="rolls"><br><br>
+      <button type="submit">Save Equipment</button>
+    </form>
+    <div id="equipment-table">
+      <!-- Table will be populated here -->
+    </div>
+  </div>
+  <script src="equipment-manager.js"></script>
+</body>
+</html>
+

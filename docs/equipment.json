@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Equipment  1",
+      "mainStat": "Attack",
+      "subStat": "Crit Rate",
+      "rolls": "12+"
+    },
+    {
+      "name": "Equipment 2",
+      "mainStat": "Defense",
+      "subStat": "HP",
+      "rolls": "10+"
+    },
+    {
+      "name": "Equipment 3",
+      "mainStat": "Speed",
+      "subStat": "Accuracy",
+      "rolls": "8+"
+    }
+  ]
